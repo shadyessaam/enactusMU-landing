@@ -1,0 +1,177 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    min-height: 100vh;
+}
+
+.left{
+    background-color: #F8F8F8;
+}
+
+.right{
+    background-color: #FFC300;
+}
+
+#founded{
+    color: #707070;
+    font-size: 13px;
+}
+
+#latest{
+    color: #707070;
+}
+
+#empowering{
+    font-weight: 700;
+    line-height: 60px;
+}
+
+#empowering span{
+    font-weight: 700;
+    color: black;
+    transition: color 1.5s ease;
+    -webkit-transition: color 1.5s ease;
+    -moz-transition: color 1.5s ease;
+    -ms-transition: color 1.5s ease;
+    -o-transition: color 1.5s ease;
+}
+
+#card{
+    position: relative;
+}
+
+#card::before{
+    content: "events";
+    color: white;
+    padding-top: 1px;
+    font-size: 13px;
+    text-align: center;
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    background-color: #FFC300;
+    right: 12px;
+    top: 14px;
+}
+
+#cardtxt{
+    font-weight: 700;
+}
+
+#cardlink{
+    color: #29CDC2;
+    text-decoration: none;
+    position: relative;
+    font-size: 11px;
+}
+
+#cardlink::after{
+    content: "";
+    position: absolute;
+    width: 49px;
+    height: 1px;
+    background-color: #29CDC2;
+    left: 0px;
+    top: 14px;
+}
+
+.right>.container{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.right>.container a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 12px;
+}
+
+#followus{
+    margin-top: 40px;
+    font-size: 15px;
+    position: relative;
+}
+
+#followus::after{
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 1px;
+    background-color: #000000;
+    left: 0px;
+    top: 18px;
+}
+
+.social{
+    margin-left: -3px;
+}
+
+.sitem a img{
+    width: 80%;
+    margin-right: -3px;
+}
+
+#rights{
+    font-size: 10px;
+}
+
+@media (min-width:992px){
+    .right> .container {
+        margin-top: 125px !important;
+    }
+}
+
+@media (max-width:576px){
+    .right> .container {
+        margin-top: 30px;
+        margin-left: 0px;
+
+    }
+    .right>.container a{
+        font-size: 20px;
+        text-decoration: none;
+        color: #000000;
+        margin-top: 12px;
+    }
+    .right .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+        padding-bottom: 15px;
+    }
+    #rights{
+        font-size: 15px;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    #followus::after{
+        width: 72px;
+    }
+    .social{
+        margin-left: 12px;
+    }
+    .sitem a img{
+        width: 70%;
+        margin-right: 5px;
+    }
+
+    #followus{
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    #empowering{
+        line-height: 40px;
+    }
+
+}

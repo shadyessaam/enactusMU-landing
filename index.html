@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enactus Mansoura University</title>
+    <meta
+      name="description"
+      content="A community of students, academic and business leaders committed to using ENtrepreneurial ACTion to transform lives and shape a better world for US all."
+    />
+    <meta name="robots" content="index" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style/style.css?v=21" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6XVMB6EEV3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-6XVMB6EEV3");
+    </script>
+  </head>
+
+  <body onload="fill()">
+    <!-- Main Container -->
+    <div class="main row g-0">
+      <!-- Left Container-->
+      <div class="left col-lg-8 col-sm-12">
+        <div
+          class="container pt-5 pb-5 pb-lg-0 d-flex flex-column"
+          style="max-width: 80%"
+        >
+          <img
+            class="img-fluid rounded float-start mt-3"
+            style="max-width: 20%"
+            src="assets/logo.png?v=2"
+            alt=""
+          />
+          <p id="founded" class="mt-4 ms-2">Was founded 14 years ago.</p>
+          <h1 id="empowering" class="mt-lg-4 mt-md-5 mb-md-5">
+            <span id="emp">Empowering people</span> in need<br />through
+            positive power of business.
+          </h1>
+          <p id="latest" class="mt-5 ms-1">Our latest</p>
+          <a
+            href="https://rollindash.enactusmans.com"
+            target="_blank"
+            style="text-decoration: none; color: black"
+            ><div
+              id="card"
+              class="card border-0 mt-1 pb-1"
+              style="width: 13rem"
+            >
+              <img
+                src="assets/enactus-rollin-dash-.webp?v=2"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 id="cardtxt" class="card-text">Rollin' Dash</h5>
+                <a
+                  href="https://rollindash.enactusmans.com"
+                  target="_blank"
+                  id="cardlink"
+                  class="card-link"
+                  >Read more</a
+                >
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+      
+      <!-- Right Container-->
+      <div class="right col-lg-4 col-sm-12 pt-lg-5">
+        <div
+          class="container pt-lg-5 ps-lg-4 mt-md-2 mt-lg-5 d-flex flex-column"
+          style="max-width: 80%">
+          <a href="https://apply.enactusmans.com">Join Us</a>
+          <a href="https://rollindash.enactusmans.com">Rollin' Dash</a>
+          <a href="mailto:info@enactusmans.com">Contact Us</a>
+          <p id="followus">Follow Us</p>
+          <div class="social d-flex pt-2">
+            <div class="sitem">
+              <a href="https://instagram.com/enactusmans/" target="_blank"
+                ><img src="assets/instagram.png" alt=""
+              /></a>
+            </div>
+            <div class="sitem">
+              <a
+                href="https://facebook.com/EnactusMansouraUniversity/"
+                target="_blank"
+                ><img src="assets/facebook.png" alt=""
+              /></a>
+            </div>
+            <div class="sitem">
+              <a href="https://twitter.com/enactusmans" target="_blank"
+                ><img src="assets/twitter.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <p id="rights" class="mt-4">
+            © All Rights Reserved. Enactus Mansoura.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Animation Script -->
+    <script>
+      function fill() {
+        var x = document.getElementById("emp");
+        x.style.color = "#FFC300";
+      }
+    </script>
+  </body>
+
+</html>
